@@ -44,6 +44,8 @@ Import the signed certificate into the broker's keystore:
 ```
 keytool -keystore kafka.server.keystore.jks -alias kafka1 -import -file cert-signed -storepass kafka-broker -keypass kafka-broker -noprompt
 ```
+## Cluster Matrices
+![alt text](cluster-metrics.png)
 
 ## Result
 Kafka cluster is up and running
